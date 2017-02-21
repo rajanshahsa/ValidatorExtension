@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ValidatorExtension'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'ValidatorExtension is extension of String & Date class.'
 
 # This description is used to generate tags and improve search results.
