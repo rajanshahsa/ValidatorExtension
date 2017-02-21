@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ValidatorExtension_Example' do
+  pod 'ValidatorExtension', :path => '../'
+
+  target 'ValidatorExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
