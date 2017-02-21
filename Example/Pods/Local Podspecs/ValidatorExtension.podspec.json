@@ -1,0 +1,22 @@
+{
+  "name": "ValidatorExtension",
+  "version": "0.1.0",
+  "summary": "A short description of ValidatorExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rajanshahsa/ValidatorExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rajanshahsa": "rajan.shah@solutionanalysts.com"
+  },
+  "source": {
+    "git": "https://github.com/rajanshahsa/ValidatorExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ValidatorExtension/Classes/**/*"
+}

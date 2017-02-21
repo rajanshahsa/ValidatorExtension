@@ -1,4 +1,5 @@
 # ValidatorExtension
+ValidatorExtension is extension of Swift & Date. Which used to validate Email id, Trim the string, & finding difference between to date in terms of Seconds, Minute, Hours, Days, Weeks, Months & Years.
 
 [![CI Status](http://img.shields.io/travis/rajanshahsa/ValidatorExtension.svg?style=flat)](https://travis-ci.org/rajanshahsa/ValidatorExtension)
 [![Version](https://img.shields.io/cocoapods/v/ValidatorExtension.svg?style=flat)](http://cocoapods.org/pods/ValidatorExtension)

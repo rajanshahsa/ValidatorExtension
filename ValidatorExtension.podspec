@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ValidatorExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ValidatorExtension.'
+  s.summary          = 'ValidatorExtension is extension of String & Date class.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ValidatorExtension is extension of String & Date. Which used to validate Email id, Trim the string, & finding difference between to date in terms of Seconds, Minute, Hours, Days, Weeks, Months & Years.
                        DESC
 
   s.homepage         = 'https://github.com/rajanshahsa/ValidatorExtension'

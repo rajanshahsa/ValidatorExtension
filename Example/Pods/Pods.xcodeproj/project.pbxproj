@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EAFA917437D6A7B3116941397B6C279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2C22628411B82669A1A9F72B65B1DCC7 /* ValidatorExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1062898A7F0EFC8FD6CFCD580C2FDEB2 /* ValidatorExtension-dummy.m */; };
+		34E533D2E0AEA6435BC054C5593A47D2 /* Pods-ValidatorExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF41EEF28B2FF54E061531E6AD3DA0 /* Pods-ValidatorExtension_Tests-dummy.m */; };
+		42A9F952B8C80AF322335B31810C3AB4 /* ValidatorExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3697CC3229FAF447E310EB9760D1DCDA /* ValidatorExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F29240E3F18837906960C2F398E9C05 /* Pods-ValidatorExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EECBAC755FB35B182C4DA115A629C72F /* Pods-ValidatorExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE69BE27319902478570BB65A27A821 /* Pods-ValidatorExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C1DD8AC238821E8157FB9C6E6CE013 /* Pods-ValidatorExtension_Example-dummy.m */; };
+		8948FDB45C779698DBC79A63FB4A8C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		89AA623C6E6A70184C59F44C8C841AA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C7141EEF11B933CAB652F7E4B9E31981 /* Pods-ValidatorExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B698D33C5A525F1EB51192E54380B365 /* Pods-ValidatorExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98A85426F7284402F54A62016CBECB9 /* ValidatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D707E0CC644EE23483D212EBB7BC872 /* ValidatorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE6DE1F8201D1D8F1BDA25B45A054169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3650E5D94A2180C702859366C120D36;
+			remoteInfo = ValidatorExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FF29AB6A1B59B7A62F2F20E9A9337E /* Pods-ValidatorExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValidatorExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		081B3C88137B53EC303ACE7921C95CAB /* ValidatorExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidatorExtension-prefix.pch"; sourceTree = "<group>"; };
+		1062898A7F0EFC8FD6CFCD580C2FDEB2 /* ValidatorExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValidatorExtension-dummy.m"; sourceTree = "<group>"; };
+		24AC7DBE54AE304F4C52B88A5C35739E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353F4E0F0F21A65109EEBAA5C07A869F /* Pods-ValidatorExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ValidatorExtension_Example.modulemap"; sourceTree = "<group>"; };
+		3697CC3229FAF447E310EB9760D1DCDA /* ValidatorExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidatorExtension-umbrella.h"; sourceTree = "<group>"; };
+		44F79187149BF7377921D008629E4D61 /* ValidatorExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ValidatorExtension.modulemap; sourceTree = "<group>"; };
+		4A18ACC213C8A5F8A3A1F595F4126C5A /* Pods-ValidatorExtension_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValidatorExtension_Tests-resources.sh"; sourceTree = "<group>"; };
+		5CBE741019C5519120DDE13A95713C5A /* Pods-ValidatorExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValidatorExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		740DF4E054235D23FBB31C0754C521AE /* Pods-ValidatorExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValidatorExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8900FB7AAAD9640B2115ED4C65054AC3 /* ValidatorExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ValidatorExtension.framework; path = ValidatorExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D33D0149D2BACA64BC6CA79E6CAE565 /* Pods-ValidatorExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValidatorExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D707E0CC644EE23483D212EBB7BC872 /* ValidatorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidatorExtension.swift; sourceTree = "<group>"; };
+		A293F30C80DF643CBE44CC6A2A7AAEA9 /* Pods-ValidatorExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ValidatorExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A415EDD00C1BEC4B6EB60C479DEBAB42 /* Pods-ValidatorExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ValidatorExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		A44779C5CD39826B0ECF807C3BE5B505 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83C09EC45DE80F1BF41456CC525D18A /* Pods_ValidatorExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ValidatorExtension_Tests.framework; path = "Pods-ValidatorExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F77C6512760A48C8FC9292EAD025DC /* Pods-ValidatorExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValidatorExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF6BC715110DD309C5AF53C3DDF7EEFA /* Pods-ValidatorExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValidatorExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2C1DD8AC238821E8157FB9C6E6CE013 /* Pods-ValidatorExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ValidatorExtension_Example-dummy.m"; sourceTree = "<group>"; };
+		B698D33C5A525F1EB51192E54380B365 /* Pods-ValidatorExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ValidatorExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BC5E893C84F7D5F54D1DC5BE11DAC658 /* Pods_ValidatorExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ValidatorExtension_Example.framework; path = "Pods-ValidatorExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD953F15DBD8A23E5F4B90DF48F1BEB1 /* ValidatorExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidatorExtension.xcconfig; sourceTree = "<group>"; };
+		C3FF41EEF28B2FF54E061531E6AD3DA0 /* Pods-ValidatorExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ValidatorExtension_Tests-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF1D17EEF02E06FD7EC70271C1BD84BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA18532CE5FC52B01B00F59DC5926DE6 /* Pods-ValidatorExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValidatorExtension_Example-resources.sh"; sourceTree = "<group>"; };
+		EE0053150C26ED958F445DA4CCAD3D27 /* Pods-ValidatorExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValidatorExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EECBAC755FB35B182C4DA115A629C72F /* Pods-ValidatorExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ValidatorExtension_Example-umbrella.h"; sourceTree = "<group>"; };
+		EEF4EA5F9399CAC773A9EE55234A55A4 /* Pods-ValidatorExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValidatorExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F2A7D76A320ECF56F965E02902F9C009 /* Pods-ValidatorExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ValidatorExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72833EF421A4E1C9A4970289333BA2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8948FDB45C779698DBC79A63FB4A8C7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD85C20556D08B9DEC055D7DC6424BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAFA917437D6A7B3116941397B6C279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBE7C925AF6092433BCA8653E65DDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AA623C6E6A70184C59F44C8C841AA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C335E1242B624EDDAD2C698A50369B /* ValidatorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2EA89FD434D7B2AE4AC28243080728C1 /* Classes */,
+			);
+			name = ValidatorExtension;
+			path = ValidatorExtension;
+			sourceTree = "<group>";
+		};
+		0CF6DAA585263A84287C833C1B33727E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E893C84F7D5F54D1DC5BE11DAC658 /* Pods_ValidatorExtension_Example.framework */,
+				A83C09EC45DE80F1BF41456CC525D18A /* Pods_ValidatorExtension_Tests.framework */,
+				8900FB7AAAD9640B2115ED4C65054AC3 /* ValidatorExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27CD631B5B2123FD2269122D47D8474E /* Pods-ValidatorExtension_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A44779C5CD39826B0ECF807C3BE5B505 /* Info.plist */,
+				353F4E0F0F21A65109EEBAA5C07A869F /* Pods-ValidatorExtension_Example.modulemap */,
+				A293F30C80DF643CBE44CC6A2A7AAEA9 /* Pods-ValidatorExtension_Example-acknowledgements.markdown */,
+				01FF29AB6A1B59B7A62F2F20E9A9337E /* Pods-ValidatorExtension_Example-acknowledgements.plist */,
+				B2C1DD8AC238821E8157FB9C6E6CE013 /* Pods-ValidatorExtension_Example-dummy.m */,
+				740DF4E054235D23FBB31C0754C521AE /* Pods-ValidatorExtension_Example-frameworks.sh */,
+				EA18532CE5FC52B01B00F59DC5926DE6 /* Pods-ValidatorExtension_Example-resources.sh */,
+				EECBAC755FB35B182C4DA115A629C72F /* Pods-ValidatorExtension_Example-umbrella.h */,
+				8D33D0149D2BACA64BC6CA79E6CAE565 /* Pods-ValidatorExtension_Example.debug.xcconfig */,
+				A8F77C6512760A48C8FC9292EAD025DC /* Pods-ValidatorExtension_Example.release.xcconfig */,
+			);
+			name = "Pods-ValidatorExtension_Example";
+			path = "Target Support Files/Pods-ValidatorExtension_Example";
+			sourceTree = "<group>";
+		};
+		2EA89FD434D7B2AE4AC28243080728C1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D707E0CC644EE23483D212EBB7BC872 /* ValidatorExtension.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4CCD5F357B4CE394AEC68069569AEC73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1D17EEF02E06FD7EC70271C1BD84BD /* Info.plist */,
+				44F79187149BF7377921D008629E4D61 /* ValidatorExtension.modulemap */,
+				BD953F15DBD8A23E5F4B90DF48F1BEB1 /* ValidatorExtension.xcconfig */,
+				1062898A7F0EFC8FD6CFCD580C2FDEB2 /* ValidatorExtension-dummy.m */,
+				081B3C88137B53EC303ACE7921C95CAB /* ValidatorExtension-prefix.pch */,
+				3697CC3229FAF447E310EB9760D1DCDA /* ValidatorExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ValidatorExtension";
+			sourceTree = "<group>";
+		};
+		72D534DDAEB6A8F03353C9A51351CFA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CD631B5B2123FD2269122D47D8474E /* Pods-ValidatorExtension_Example */,
+				CC6ABA2E7C67DC845008CCB05B9EB62D /* Pods-ValidatorExtension_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8ABE43D509EB566E5DA5DC1012977F45 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0CF6DAA585263A84287C833C1B33727E /* Products */,
+				72D534DDAEB6A8F03353C9A51351CFA3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8ABE43D509EB566E5DA5DC1012977F45 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D51DF91EB78365DE20AFF88DE96C48F6 /* ValidatorExtension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC6ABA2E7C67DC845008CCB05B9EB62D /* Pods-ValidatorExtension_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24AC7DBE54AE304F4C52B88A5C35739E /* Info.plist */,
+				A415EDD00C1BEC4B6EB60C479DEBAB42 /* Pods-ValidatorExtension_Tests.modulemap */,
+				F2A7D76A320ECF56F965E02902F9C009 /* Pods-ValidatorExtension_Tests-acknowledgements.markdown */,
+				EE0053150C26ED958F445DA4CCAD3D27 /* Pods-ValidatorExtension_Tests-acknowledgements.plist */,
+				C3FF41EEF28B2FF54E061531E6AD3DA0 /* Pods-ValidatorExtension_Tests-dummy.m */,
+				EEF4EA5F9399CAC773A9EE55234A55A4 /* Pods-ValidatorExtension_Tests-frameworks.sh */,
+				4A18ACC213C8A5F8A3A1F595F4126C5A /* Pods-ValidatorExtension_Tests-resources.sh */,
+				B698D33C5A525F1EB51192E54380B365 /* Pods-ValidatorExtension_Tests-umbrella.h */,
+				AF6BC715110DD309C5AF53C3DDF7EEFA /* Pods-ValidatorExtension_Tests.debug.xcconfig */,
+				5CBE741019C5519120DDE13A95713C5A /* Pods-ValidatorExtension_Tests.release.xcconfig */,
+			);
+			name = "Pods-ValidatorExtension_Tests";
+			path = "Target Support Files/Pods-ValidatorExtension_Tests";
+			sourceTree = "<group>";
+		};
+		D51DF91EB78365DE20AFF88DE96C48F6 /* ValidatorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD5F357B4CE394AEC68069569AEC73 /* Support Files */,
+				05C335E1242B624EDDAD2C698A50369B /* ValidatorExtension */,
+			);
+			name = ValidatorExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		305D29EA0787C16C7AD6FCB4A1A5DA61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A9F952B8C80AF322335B31810C3AB4 /* ValidatorExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5480FC63CFF6FDF80E39FAD58C63CB90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F29240E3F18837906960C2F398E9C05 /* Pods-ValidatorExtension_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A963D9B9C237C032072F71E37900C32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7141EEF11B933CAB652F7E4B9E31981 /* Pods-ValidatorExtension_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24599780722A12AF1204E6D505C17676 /* Pods-ValidatorExtension_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DED08F179FD5F8EC201C0CCE2D536CD /* Build configuration list for PBXNativeTarget "Pods-ValidatorExtension_Tests" */;
+			buildPhases = (
+				15FF1B9FAF7E1AA07C14071A190089F2 /* Sources */,
+				FFBE7C925AF6092433BCA8653E65DDE8 /* Frameworks */,
+				7A963D9B9C237C032072F71E37900C32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ValidatorExtension_Tests";
+			productName = "Pods-ValidatorExtension_Tests";
+			productReference = A83C09EC45DE80F1BF41456CC525D18A /* Pods_ValidatorExtension_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		404B7D9CC71469F6CEFA3CA4E5A6C008 /* Pods-ValidatorExtension_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812EB93C993E5545DE16AD49ECCF01A2 /* Build configuration list for PBXNativeTarget "Pods-ValidatorExtension_Example" */;
+			buildPhases = (
+				A9801F951510B9D1FC4B683A7919F6B4 /* Sources */,
+				DD85C20556D08B9DEC055D7DC6424BB9 /* Frameworks */,
+				5480FC63CFF6FDF80E39FAD58C63CB90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC465B76AFBD37E5950CF2E9CA8A5EF /* PBXTargetDependency */,
+			);
+			name = "Pods-ValidatorExtension_Example";
+			productName = "Pods-ValidatorExtension_Example";
+			productReference = BC5E893C84F7D5F54D1DC5BE11DAC658 /* Pods_ValidatorExtension_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3650E5D94A2180C702859366C120D36 /* ValidatorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABDE4F5F10C85EB4A26551C907758F8 /* Build configuration list for PBXNativeTarget "ValidatorExtension" */;
+			buildPhases = (
+				4FA4753D724152C8865F10BA7CD0163B /* Sources */,
+				72833EF421A4E1C9A4970289333BA2D0 /* Frameworks */,
+				305D29EA0787C16C7AD6FCB4A1A5DA61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidatorExtension;
+			productName = ValidatorExtension;
+			productReference = 8900FB7AAAD9640B2115ED4C65054AC3 /* ValidatorExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0CF6DAA585263A84287C833C1B33727E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				404B7D9CC71469F6CEFA3CA4E5A6C008 /* Pods-ValidatorExtension_Example */,
+				24599780722A12AF1204E6D505C17676 /* Pods-ValidatorExtension_Tests */,
+				D3650E5D94A2180C702859366C120D36 /* ValidatorExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FF1B9FAF7E1AA07C14071A190089F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E533D2E0AEA6435BC054C5593A47D2 /* Pods-ValidatorExtension_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA4753D724152C8865F10BA7CD0163B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C22628411B82669A1A9F72B65B1DCC7 /* ValidatorExtension-dummy.m in Sources */,
+				F98A85426F7284402F54A62016CBECB9 /* ValidatorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9801F951510B9D1FC4B683A7919F6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE69BE27319902478570BB65A27A821 /* Pods-ValidatorExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBC465B76AFBD37E5950CF2E9CA8A5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ValidatorExtension;
+			target = D3650E5D94A2180C702859366C120D36 /* ValidatorExtension */;
+			targetProxy = FE6DE1F8201D1D8F1BDA25B45A054169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A2EE4A4DA9185D9B5AE3BA983789DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBE741019C5519120DDE13A95713C5A /* Pods-ValidatorExtension_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ValidatorExtension_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ValidatorExtension_Tests/Pods-ValidatorExtension_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ValidatorExtension_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3085B2E5404323F7F143067E96C04644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD953F15DBD8A23E5F4B90DF48F1BEB1 /* ValidatorExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ValidatorExtension/ValidatorExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValidatorExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ValidatorExtension/ValidatorExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ValidatorExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39D4BDAE0B78B072B5B02A7139C3BF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F77C6512760A48C8FC9292EAD025DC /* Pods-ValidatorExtension_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ValidatorExtension_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ValidatorExtension_Example/Pods-ValidatorExtension_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ValidatorExtension_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA64CA995DCEEF57AC3C4090DA1B7DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D33D0149D2BACA64BC6CA79E6CAE565 /* Pods-ValidatorExtension_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ValidatorExtension_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ValidatorExtension_Example/Pods-ValidatorExtension_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ValidatorExtension_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEE7D3098B5D1DC2AE7AC94E01610F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6BC715110DD309C5AF53C3DDF7EEFA /* Pods-ValidatorExtension_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ValidatorExtension_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ValidatorExtension_Tests/Pods-ValidatorExtension_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ValidatorExtension_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F621EB16CC7D515998014F2E9C58D9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD953F15DBD8A23E5F4B90DF48F1BEB1 /* ValidatorExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ValidatorExtension/ValidatorExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValidatorExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ValidatorExtension/ValidatorExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ValidatorExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DED08F179FD5F8EC201C0CCE2D536CD /* Build configuration list for PBXNativeTarget "Pods-ValidatorExtension_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE7D3098B5D1DC2AE7AC94E01610F1E /* Debug */,
+				1A2EE4A4DA9185D9B5AE3BA983789DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812EB93C993E5545DE16AD49ECCF01A2 /* Build configuration list for PBXNativeTarget "Pods-ValidatorExtension_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA64CA995DCEEF57AC3C4090DA1B7DDF /* Debug */,
+				39D4BDAE0B78B072B5B02A7139C3BF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABDE4F5F10C85EB4A26551C907758F8 /* Build configuration list for PBXNativeTarget "ValidatorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3085B2E5404323F7F143067E96C04644 /* Debug */,
+				F621EB16CC7D515998014F2E9C58D9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
